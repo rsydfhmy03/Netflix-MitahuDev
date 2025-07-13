@@ -1,4 +1,4 @@
-import "../../App.css"
+import "../../index.css"
 import Layout from "../../components/layout/DefaultLayout"
 
 function Landing() {
