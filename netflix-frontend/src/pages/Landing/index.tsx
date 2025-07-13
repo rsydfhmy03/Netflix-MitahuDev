@@ -1,13 +1,13 @@
 import "../../index.css"
 import Layout from "../../components/layout/DefaultLayout"
+import Jumbotron from "../../components/modules/LandingPage/Jumbotron";
+import InputMembership from "../../components/modules/LandingPage/InputMembership";
 
 function Landing() {
   return (
     <Layout>
-      <div className="landing">
-        <h1>Welcome to the Netflix Clone</h1>
-        <p>Enjoy your favorite movies and TV shows!</p>
-      </div>
+      <Jumbotron />
+      <InputMembership />
     </Layout>
   )
 }

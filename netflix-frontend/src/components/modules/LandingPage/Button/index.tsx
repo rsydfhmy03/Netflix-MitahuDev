@@ -10,9 +10,9 @@ interface DefaultButtonProps {
     isArrowIcon?: boolean;
 }
 
-const DefaultButton: React.FC<DefaultButtonProps> = ({ text, onClick, className = "bg-red-600 text-white py-1 px-4 rounded", isArrowIcon = false }) => {
+const DefaultButton: React.FC<DefaultButtonProps> = ({ text, onClick, className , isArrowIcon = false }) => {
     return (
-        <button className={className} onClick={onClick}> {text} {isArrowIcon && (<FontAwesomeIcon icon={faAngleRight} />)}</button>
+        <button className={` bg-red-600 text-white py-1 px-4 rounded ${className}`} onClick={onClick}> {text} {isArrowIcon && (<FontAwesomeIcon icon={faAngleRight} />)}</button>
     )
 }
 export default DefaultButton;

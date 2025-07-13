@@ -7,7 +7,7 @@ function Navbar(){
     <header className="container mx-auto">
         <nav className="flex justify-between items-center ">
             <div className="">
-                <img src="../../public/netflix_logo_icon.png" alt="Netflix" className="w-50" />
+                <img src="/netflix_logo_icon.png" alt="Netflix" className="w-50" />
             </div>
             <div className="flex items-center gap-4 ">
                 <OptionLanguage />
