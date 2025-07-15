@@ -1,13 +1,12 @@
 import "../../index.css"
 import Layout from "../../components/layout/DefaultLayout"
 import Jumbotron from "../../components/modules/LandingPage/Jumbotron";
-import InputMembership from "../../components/modules/LandingPage/InputMembership";
-
+import SectionEnjoy from "../../components/modules/LandingPage/SectionEnjoy";
 function Landing() {
   return (
     <Layout>
       <Jumbotron />
-      <InputMembership />
+      <SectionEnjoy />
     </Layout>
   )
 }
