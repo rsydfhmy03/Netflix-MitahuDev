@@ -5,6 +5,8 @@ import SectionEnjoy from "../../components/modules/LandingPage/SectionContent/se
 import SectionDwonload from "../../components/modules/LandingPage/SectionContent/sectionDwonload";
 import SectionWatch from "../../components/modules/LandingPage/SectionContent/sectionWatch";
 import SectionProfile from "../../components/modules/LandingPage/SectionContent/sectionProfile";
+import SectionFAQ from "../../components/modules/LandingPage/SectionContent/sectionFAQ";
+
 function Landing() {
   return (
     <Layout>
@@ -13,6 +15,7 @@ function Landing() {
       <SectionDwonload />
       <SectionWatch />
       <SectionProfile/>
+      <SectionFAQ />
     </Layout>
   )
 }
