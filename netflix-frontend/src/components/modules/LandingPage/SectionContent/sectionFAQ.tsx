@@ -18,7 +18,7 @@ const SectionFAQ = () => {
   return (
     <div className='w-full p-16 border-t-8 border-stone-700'>
         <h2 className='text-5xl mb-8 font-black text-white text-center'>{faqtitle}</h2>
-        <ul className='flex flex-col gap-2 p-8'>
+        <ul className='flex flex-col gap-1 p-8'>
             <EachUtils of={faqlist} render={(item, index) => (
                 <li className='flex flex-col gap-1  ' key={index} >
                     <div className='bg-[#2d2d2d] hover:bg-[#414141] text-white'>

@@ -6,7 +6,7 @@ import SectionDwonload from "../../components/modules/LandingPage/SectionContent
 import SectionWatch from "../../components/modules/LandingPage/SectionContent/sectionWatch";
 import SectionProfile from "../../components/modules/LandingPage/SectionContent/sectionProfile";
 import SectionFAQ from "../../components/modules/LandingPage/SectionContent/sectionFAQ";
-
+import Footer from "../../components/modules/LandingPage/Footer";
 function Landing() {
   return (
     <Layout>
@@ -16,6 +16,8 @@ function Landing() {
       <SectionWatch />
       <SectionProfile/>
       <SectionFAQ />
+      <Footer />
+
     </Layout>
   )
 }
