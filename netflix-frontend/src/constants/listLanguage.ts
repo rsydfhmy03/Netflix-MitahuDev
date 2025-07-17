@@ -1,10 +1,10 @@
 export const LIST_LANGUAGE = [
     {
-        name: "Bahasa Indonesia",
-        code: "id"
+        name: "English",
+        value: "en"
     },
     {
-        name: "English",
-        code: "en"
+        name: "Bahasa Indonesia",
+        value: "id"
     }
 ]
