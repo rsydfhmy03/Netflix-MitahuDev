@@ -1,5 +1,5 @@
 import "../../index.css"
-import Layout from "../../components/layout/DefaultLayout"
+import Layout from "../../components/layout/BrowseLayout"
 
 function Browse() {
   return (
